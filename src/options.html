@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLeap Options</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/options.css">
+</head>
+<body>
+
+    <p>Confgure your CLeap controls:</p>
+    <br/>
+
+    <div class='control-div'>
+        <img src="./images/pause.png" height="100" class='control-image'/>
+        <p>Pause a video on the page.</p>
+    </div>
+    
+    <div class='control-div'>
+        <img src="./images/play.png" height="100" class='control-image'/>
+        <p>Play a video on the page.</p>
+    </div>
+
+    <div class='control-div'>
+        <img src="./images/open_tab.png" height="100" class='control-image'/>
+        <p>Open your favorite page in another tab: </p>
+        <input type="text" id='url-input'></input>
+    </div>
+
+    <button id='save'>Save changes</button>
+
+    <div class='status-div'><i id="status"></i></div>
+
+    <script src='options.js'></script>
+</body>
+</html>
