@@ -1,4 +1,5 @@
-#CLeap
+## CLeap
+
 Chrome browser extension for enabling gesture-based controls on web pages, using a Leap Motion Controller.
 
 This extenion uses gesture recognition to enable performing 'play video', 'pause video' and 'open tab' controls by performing some
